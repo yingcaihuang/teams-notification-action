@@ -8,8 +8,6 @@
 ### Description
 This GitHub Action sends rich **Adaptive Cards** notifications to Microsoft Teams. It is designed to provide a comprehensive summary of your GitHub Actions workflow runs, including status, version, commit details, and execution duration.
 
-![Teams Notification Screenshot](images/screen.png)
-
 ### Features
 - 🎨 **Rich Adaptive Cards**: Sends beautifully formatted cards to Teams.
 - 🚦 **Status Awareness**: Automatically styles the card based on status (Success, Failure, Cancelled, Waiting for Approval, etc.).
@@ -17,6 +15,10 @@ This GitHub Action sends rich **Adaptive Cards** notifications to Microsoft Team
 - 🔗 **Quick Links**: Includes a button to jump directly to the Workflow Run on GitHub.
 - 📝 **Detailed Info**: Shows repository, version/ref, actor, commit SHA, and commit message.
 - 🌍 **Timezone**: Displays time in CST (UTC+8).
+
+![Teams Notification Screenshot](images/screen.png)
+
+![Teams Notification Screenshot 2](images/screen2.png)
 
 ### Inputs
 
@@ -92,8 +94,6 @@ jobs:
 ### 简介
 这是一个用于向 Microsoft Teams 发送富文本 **自适应卡片 (Adaptive Cards)** 通知 GitHub Action。它旨在提供 GitHub Actions 工作流运行的全面摘要，包括状态、版本、提交详情和执行持续时间。
 
-![Teams Notification Screenshot](images/screen.png)
-
 ### 功能特性
 - 🎨 **富文本自适应卡片**: 发送格式精美的卡片到 Teams。
 - 🚦 **状态感知**: 根据状态（成功、失败、取消、等待审批等）自动调整卡片样式和颜色。
@@ -101,6 +101,10 @@ jobs:
 - 🔗 **快速链接**: 包含一个直接跳转到 GitHub 工作流运行页面的按钮。
 - 📝 **详细信息**: 显示仓库、版本/引用、触发者、提交 SHA 和提交信息。
 - 🌍 **时区**: 显示时间为 CST (UTC+8)。
+
+![Teams Notification Screenshot](images/screen.png)
+
+![Teams Notification Screenshot 2](images/screen2.png)
 ⚠️ 关键配置指南
 
 1.  **Webhook URL (安全必读)**
