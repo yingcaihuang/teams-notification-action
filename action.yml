@@ -1,4 +1,4 @@
-name: 'Teams Notification'
+name: 'Teams Notification with Adaptive Cards'
 description: 'Send rich Adaptive Cards notifications to Microsoft Teams'
 author: 'yingcaihuang'
 branding:
