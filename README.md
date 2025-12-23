@@ -8,6 +8,8 @@
 ### Description
 This GitHub Action sends rich **Adaptive Cards** notifications to Microsoft Teams. It is designed to provide a comprehensive summary of your GitHub Actions workflow runs, including status, version, commit details, and execution duration.
 
+![Teams Notification Screenshot](images/screen.png)
+
 ### Features
 - 🎨 **Rich Adaptive Cards**: Sends beautifully formatted cards to Teams.
 - 🚦 **Status Awareness**: Automatically styles the card based on status (Success, Failure, Cancelled, Waiting for Approval, etc.).
@@ -89,6 +91,8 @@ jobs:
 
 ### 简介
 这是一个用于向 Microsoft Teams 发送富文本 **自适应卡片 (Adaptive Cards)** 通知 GitHub Action。它旨在提供 GitHub Actions 工作流运行的全面摘要，包括状态、版本、提交详情和执行持续时间。
+
+![Teams Notification Screenshot](images/screen.png)
 
 ### 功能特性
 - 🎨 **富文本自适应卡片**: 发送格式精美的卡片到 Teams。
